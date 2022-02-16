@@ -30,7 +30,7 @@ if (diaEvento >= diaAtual && mesEvento >= mesAtual && anoEvento >= anoAtual && i
 } else if (diaEvento >= diaAtual && mesEvento >= mesAtual && anoEvento < anoAtual) {
     console.log(`Data inválida: ${diaEvento}/${mesEvento}/${anoEvento}, ano da data do evento é inferior ao ano atual.`);
 } else if (diaEvento >= diaAtual && mesEvento < mesAtual && anoEvento <= anoAtual) {
-    console.log(`Data inválida: ${diaEvento}/${mesEvento}/${anoEvento}, mês da data do evento é inferior ao mês atual.`);
+    console.log(`Data inválida: ${diaEvento}/${mesEvento}/${anoEvento}, mês da data do evento é inferior ao mês atual. `);
 } else if (diaEvento < diaAtual && mesEvento >= mesAtual && anoEvento <= anoAtual) {
     console.log(`Data inválida: ${diaEvento}/${mesEvento}/${anoEvento}, dia da data do evento é inferior ao dia atual.`)
 } else if (diaEvento < diaAtual && mesEvento <= mesAtual && anoEvento <= anoAtual) {
